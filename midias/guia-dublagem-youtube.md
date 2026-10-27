@@ -62,3 +62,27 @@ Estou logado no YouTube Studio (studio.youtube.com) do meu canal. Quero ativar a
 
 Não apague nada, não altere vídeos além do que pedi e não mexa em monetização ou privacidade.
 ```
+
+---
+
+## Prompt para traduzir títulos e descrições em lote (espanhol + inglês)
+
+Cole no Claude no Chrome com o YouTube Studio aberto. Ele trabalha em lotes de 20 vídeos, do mais visto para o menos visto, e pede aprovação antes de publicar cada lote.
+
+```
+Estou logado no YouTube Studio do meu canal médico (em português). Quero adicionar título e descrição traduzidos para ESPANHOL e INGLÊS nos meus vídeos, sem alterar nada em português.
+
+Como trabalhar:
+1. Vá em Conteúdo > Vídeos e ordene por visualizações (maior primeiro). Trabalhe em lotes de 20 vídeos.
+2. Para cada vídeo do lote, abra Idiomas (menu da esquerda) > o vídeo. Pule o vídeo se ele já tiver título em espanhol e inglês.
+3. Escreva as traduções seguindo estas regras:
+   - Título: natural para o público de cada idioma, não literal. Espanhol neutro latino-americano. Inglês americano. Máximo de 100 caracteres. Mantenha o gancho/curiosidade do original.
+   - Não exagere nem prometa resultados que o título original não promete.
+   - Termos médicos, nomes de medicamentos, doses e números devem ser traduzidos com precisão (use a denominação genérica correta em cada idioma).
+   - Descrição: traduza o texto, mas mantenha links, hashtags de marca, timestamps e meu nome exatamente como estão.
+4. Antes de publicar, me mostre uma tabela do lote: título original | título ES | título EN. Espere eu responder "aprovado" (ou minhas correções).
+5. Depois da aprovação, adicione em cada vídeo: Adicionar idioma > Espanhol > Título e descrição > Publicar; depois o mesmo para Inglês.
+6. Ao terminar o lote, me diga quantos vídeos foram concluídos e qual foi o último, e pergunte se continuo para o próximo lote.
+
+Não altere o título, a descrição, a miniatura, a privacidade ou a monetização originais. Não apague nada. Se algo na tela for diferente do esperado, pare e me pergunte.
+```
