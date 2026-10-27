@@ -85,4 +85,6 @@ Como trabalhar:
 6. Ao terminar o lote, me diga quantos vídeos foram concluídos e qual foi o último, e pergunte se continuo para o próximo lote.
 
 Não altere o título, a descrição, a miniatura, a privacidade ou a monetização originais. Não apague nada. Se algo na tela for diferente do esperado, pare e me pergunte.
+
+Se o vídeo já tiver Espanhol ou Inglês na lista de idiomas (por exemplo, criado pela dublagem), não adicione de novo: abra esse idioma existente. Se o título dele já estiver preenchido, mantenha como está e só faça o idioma que falta.
 ```
