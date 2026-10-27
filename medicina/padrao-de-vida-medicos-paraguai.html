@@ -1,0 +1,214 @@
+<title>Médicos no Paraguai</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: coluna única de leitura (~68ch), com quadros de dados e um gráfico de barras de renda mensal. */
+:root {
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --fg: #1b2230;
+  --muted: #5a6474;
+  --line: #d9dee6;
+  --accent: #b3261e;      /* vermelho da bandeira, dessaturado */
+  --accent-2: #1f3f8a;    /* azul da bandeira */
+  --bar: #1f3f8a;
+  --bar-soft: #9fb1d9;
+  --font-display: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11151c; --surface: #181e27; --fg: #e6e9ee; --muted: #9aa4b3; --line: #2a3340;
+    --accent: #ef6b5f; --accent-2: #8fb0ff; --bar: #8fb0ff; --bar-soft: #3d5180; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11151c; --surface: #181e27; --fg: #e6e9ee; --muted: #9aa4b3; --line: #2a3340;
+  --accent: #ef6b5f; --accent-2: #8fb0ff; --bar: #8fb0ff; --bar-soft: #3d5180; color-scheme: dark;
+}
+body {
+  background: var(--bg); color: var(--fg);
+  font-family: var(--font-body); font-size: 17px; line-height: 1.65;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 40px 72px;
+}
+main { max-width: 44rem; margin: 0 auto; display: grid; gap: 8px; }
+header { display: grid; gap: 12px; padding-bottom: 24px; border-bottom: 1px solid var(--line); }
+.eyebrow { font-family: var(--font-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(2rem, 5vw, 2.9rem); line-height: 1.1; margin: 0; text-wrap: balance; }
+.dek { font-size: 1.1rem; color: var(--muted); margin: 0; }
+.meta { font-size: 13px; color: var(--muted); font-family: var(--font-mono); }
+h2 { font-family: var(--font-display); font-weight: 600; font-size: 1.6rem; line-height: 1.2; margin: 40px 0 4px; text-wrap: balance; }
+h3 { font-size: 1rem; font-weight: 600; margin: 20px 0 0; }
+p, ul, ol { margin: 8px 0; }
+li { margin: 4px 0; }
+a { color: var(--accent-2); text-underline-offset: 2px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+sup a { text-decoration: none; font-family: var(--font-mono); font-size: 11px; }
+strong { font-weight: 600; }
+.num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+.summary { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 20px 22px; margin-top: 24px; }
+.summary h2 { margin-top: 0; font-size: 1.25rem; }
+.summary ul { padding-left: 20px; }
+
+.table-wrap { overflow-x: auto; margin: 12px 0; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 520px; font-size: 15px; }
+th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 500; }
+tr:last-child td { border-bottom: 0; }
+td.r, th.r { text-align: right; font-family: var(--font-mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+figure { margin: 16px 0; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 18px 20px; }
+figcaption { font-size: 13px; color: var(--muted); margin-top: 12px; }
+.chart-title { font-weight: 600; font-size: 15px; margin-bottom: 12px; }
+.bars { display: grid; gap: 10px; }
+.bar-row { display: grid; grid-template-columns: minmax(0, 15rem) 1fr; gap: 12px; align-items: center; }
+.bar-label { font-size: 14px; line-height: 1.3; min-width: 0; }
+.bar-track { position: relative; height: 22px; display: flex; align-items: center; gap: 8px; }
+.bar { height: 100%; background: var(--bar); border-radius: 2px; flex: none; }
+.bar.soft { background: var(--bar-soft); }
+.bar-val { font-family: var(--font-mono); font-size: 13px; font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--fg); }
+@media (max-width: 560px) {
+  .bar-row { grid-template-columns: 1fr; gap: 4px; }
+}
+
+.note { border-left: 3px solid var(--accent); padding: 4px 0 4px 16px; color: var(--fg); margin: 16px 0; }
+.note p { margin: 4px 0; }
+
+ol.sources { font-size: 14px; color: var(--muted); padding-left: 24px; }
+ol.sources li { margin: 6px 0; overflow-wrap: anywhere; }
+footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+</style>
+
+<main>
+<header>
+  <div class="eyebrow">Projeto Paraguai · Medicina</div>
+  <h1>Como vivem e trabalham os médicos no Paraguai</h1>
+  <p class="dek">Renda no Ministério da Saúde, no IPS e no setor privado, carga horária, multiemprego, custo de vida e o que isso significa para um médico brasileiro pensando em atuar no país.</p>
+  <div class="meta">Atualizado em 27 de outubro de 2026 · Câmbio de referência: US$ 1 ≈ G 5.900</div>
+</header>
+
+<section class="summary" aria-labelledby="resumo">
+  <h2 id="resumo">Em resumo</h2>
+  <ul>
+    <li>O médico típico do setor público paraguaio vive de <strong>vários vínculos</strong>. Cada vínculo do Ministério da Saúde (MSPBS) paga cerca de <span class="num">G 5 milhões</span> por mês (≈ US$ 850) por uma carga de 12 horas, e muitos acumulam dois ou três.<sup><a href="#f1">1</a>,<a href="#f3">3</a></sup></li>
+    <li>Depois de uma greve nacional e de renúncias em massa em agosto e setembro de 2026, o governo e o sindicato fecharam acordo: <span class="num">+G 2 milhões</span> por vínculo, pagos em três parcelas ao longo de 2027.<sup><a href="#f4">4</a>,<a href="#f5">5</a></sup></li>
+    <li>O setor privado (sanatórios, consultório próprio e convênios chamados <em>prepagas</em>) é onde estão as rendas mais altas, mas os honorários não têm tabela atualizada: a lei de honorários é de 1974.<sup><a href="#f6">6</a></sup></li>
+    <li>O custo de vida é baixo para padrões regionais. Uma família de quatro em Assunção vive com cerca de US$ 2.000 a 3.000 por mês, incluindo escola internacional e plano de saúde.<sup><a href="#f8">8</a></sup></li>
+    <li>O mercado está ficando mais competitivo: 43 faculdades de medicina formam 1.500 a 1.600 médicos por ano, e só há cerca de 887 vagas de residência.<sup><a href="#f2">2</a></sup></li>
+  </ul>
+</section>
+
+<h2>Quantos são e onde estão</h2>
+<p>Segundo o Ministério da Saúde, havia <span class="num">36.355</span> médicos registrados no Paraguai em fevereiro de 2025, dos quais <span class="num">30.053</span> em atividade, o que dá cerca de <span class="num">14,4</span> médicos por 10.000 habitantes.<sup><a href="#f2">2</a></sup> A distribuição é muito desigual. Assunção tem cerca de 50 médicos por 10.000 habitantes, e Assunção e o departamento Central concentram metade dos médicos do país. No Chaco (Alto Paraguay e Boquerón) são menos de 5 por 10.000.<sup><a href="#f9">9</a></sup></p>
+<p>Ao mesmo tempo, a formação explodiu: são 43 faculdades de medicina com mais de 45.000 estudantes, muitos deles brasileiros em cidades de fronteira como Pedro Juan Caballero.<sup><a href="#f2">2</a>,<a href="#f10">10</a></sup> Como há cerca de 887 vagas de residência por ano para 1.500 a 1.600 formados, cerca de metade dos novos médicos não consegue se especializar.<sup><a href="#f2">2</a></sup> O resultado é um excesso de generalistas nos centros urbanos e falta de especialistas (medicina de família, pediatria e anestesiologia) no interior.</p>
+
+<h2>Como a profissão está organizada</h2>
+<p>O sistema de saúde paraguaio tem três pilares, e a maioria dos médicos transita entre eles na mesma semana:<sup><a href="#f7">7</a></sup></p>
+<ul>
+  <li><strong>Ministério da Saúde Pública (MSPBS).</strong> Hospitais, centros e postos de saúde, gratuitos para a população. É o maior empregador. Referências: Hospital de Clínicas (universitário) e Hospital Nacional de Itauguá.</li>
+  <li><strong>IPS (Instituto de Previsión Social).</strong> A previdência social dos trabalhadores formais, financiada por contribuição de 9% do empregado e 16,5% do empregador.<sup><a href="#f8b">11</a></sup> Tem rede própria, com o Hospital Central em Assunção.</li>
+  <li><strong>Setor privado.</strong> Sanatórios e clínicas (concentrados nos bairros Villa Morra e Carmelitas, em Assunção), consultórios particulares e as <em>prepagas</em>, que funcionam como planos de saúde.</li>
+</ul>
+
+<h3>O vínculo e o multiemprego</h3>
+<p>No setor público a unidade de trabalho é o <strong>vínculo</strong>: um contrato com carga horária fixa (hoje 12 horas) e salário fixo. A Lei 7.137 definiu a carga horária e o piso por vínculo dos profissionais de saúde.<sup><a href="#f3">3</a></sup> Como um vínculo sozinho paga pouco mais que um salário mínimo e meio, o padrão é acumular dois ou três vínculos (por exemplo, MSPBS e IPS) e completar a renda com plantões em sanatórios privados e um consultório à tarde ou à noite.<sup><a href="#f1">1</a>,<a href="#f2">2</a></sup> Cerca de 4.000 médicos do Ministério trabalham como <em>contratados</em>, sem estabilidade, e a regularização deles foi uma das pautas da greve de 2026.<sup><a href="#f1">1</a></sup></p>
+
+<h2>Quanto ganham</h2>
+
+<h3>Setor público (Ministério da Saúde)</h3>
+<p>O salário-base por vínculo subiu de cerca de G 2,3 milhões por 24 horas (2009–2010) para G 4,6 milhões em 2012 e chegou a <span class="num">G 5 milhões</span> por 12 horas em 2023, valor que vigorava em 2026.<sup><a href="#f1">1</a></sup> Uma reportagem de 2024 cita G 5,5 milhões por vínculo de 12 horas.<sup><a href="#f3">3</a></sup> O próprio governo deu como exemplo uma neonatologista com três vínculos e antiguidade máxima ganhando <span class="num">G 17,3 milhões</span> (≈ US$ 2.900).<sup><a href="#f1">1</a></sup></p>
+<p>Em agosto de 2026 os médicos entraram em greve e centenas de especialistas apresentaram renúncia, incluindo cerca de 70 intensivistas pediátricos (74% do grupo) e 20 neonatologistas do Hospital de San Lorenzo.<sup><a href="#f1">1</a>,<a href="#f5b">12</a></sup> O sindicato (Sinamed) pedia piso de G 8 milhões por vínculo. O acordo assinado em 14 de setembro e homologado em 12 de outubro de 2026 prevê:<sup><a href="#f4">4</a>,<a href="#f5">5</a></sup></p>
+<ul>
+  <li>+G 500 mil por vínculo em abril de 2027, +G 500 mil em julho e +G 1 milhão em dezembro (total <span class="num">+G 2 milhões</span>);</li>
+  <li>residentes passam de G 6 milhões para <span class="num">G 6,6 milhões</span>;</li>
+  <li><span class="num">G 1 milhão</span> por feriado efetivamente trabalhado;</li>
+  <li>desprecarização de cerca de 2.300 médicos contratados, 1.500 vagas adicionais e US$ 260 milhões a mais para urgências em 2027.</li>
+</ul>
+<p>O governo também oferece um adicional de G 500 mil por mês para especialistas com residência concluída.<sup><a href="#f1">1</a></sup></p>
+
+<h3>IPS</h3>
+<p>No IPS os valores variam por categoria e não são publicados de forma consolidada. Em 2024 a associação dos médicos do IPS informava <span class="num">G 4,5 milhões</span> para o médico contratado, abaixo do Ministério, e reclamava 15 anos sem reajuste.<sup><a href="#f3">3</a></sup> Em áreas críticas o IPS chega a pagar mais: em 2021, 20 intensivistas do Hospital de Itauguá trocaram o Ministério pelo IPS, que pagava G 6 milhões contra G 4,6 milhões pela mesma guarda.<sup><a href="#f12">13</a></sup></p>
+
+<figure>
+  <div class="chart-title">Renda mensal bruta no setor público, em US$</div>
+  <div class="bars" role="list">
+    <div class="bar-row" role="listitem"><div class="bar-label">Salário mínimo (jul/2026)</div><div class="bar-track"><div class="bar soft" style="width:12.9%"></div><span class="bar-val">516</span></div></div>
+    <div class="bar-row" role="listitem"><div class="bar-label">IPS, médico contratado (2024)</div><div class="bar-track"><div class="bar soft" style="width:19.1%"></div><span class="bar-val">763</span></div></div>
+    <div class="bar-row" role="listitem"><div class="bar-label">MSPBS, 1 vínculo (2026)</div><div class="bar-track"><div class="bar" style="width:21.2%"></div><span class="bar-val">847</span></div></div>
+    <div class="bar-row" role="listitem"><div class="bar-label">Residente (2026)</div><div class="bar-track"><div class="bar" style="width:25.4%"></div><span class="bar-val">1.017</span></div></div>
+    <div class="bar-row" role="listitem"><div class="bar-label">MSPBS, 1 vínculo (dez/2027)</div><div class="bar-track"><div class="bar" style="width:29.7%"></div><span class="bar-val">1.186</span></div></div>
+    <div class="bar-row" role="listitem"><div class="bar-label">MSPBS, 3 vínculos (2026)</div><div class="bar-track"><div class="bar" style="width:63.6%"></div><span class="bar-val">2.542</span></div></div>
+    <div class="bar-row" role="listitem"><div class="bar-label">Neonatologista, 3 vínculos, antiguidade máx.</div><div class="bar-track"><div class="bar" style="width:73.3%"></div><span class="bar-val">2.932</span></div></div>
+    <div class="bar-row" role="listitem"><div class="bar-label">MSPBS, 3 vínculos (dez/2027)</div><div class="bar-track"><div class="bar" style="width:89%"></div><span class="bar-val">3.559</span></div></div>
+  </div>
+  <figcaption>Barras em escala de 0 a US$ 4.000. Conversão a G 5.900 por dólar (cotação citada pela imprensa em setembro de 2026). Valores brutos, antes de IPS e imposto. Fontes: 1, 3, 4, 13 e 14.</figcaption>
+</figure>
+
+<h3>Setor privado</h3>
+<p>Não há estatística oficial de renda médica privada. O que se sabe:</p>
+<ul>
+  <li><strong>Consulta particular:</strong> clínico geral entre US$ 20 e 40 em Assunção; especialista entre US$ 50 e 150, conforme especialidade e local.<sup><a href="#f11">15</a></sup></li>
+  <li><strong>Prepagas:</strong> pagam por consulta e procedimento conforme tabela própria. A Lei 480 de 1974, que regula honorários médicos, ainda fixa a consulta em <span class="num">G 250</span>, um valor simbólico. Por isso os honorários pagos pelas prepagas ficam congelados ou à mercê das empresas. Mais de 35 sociedades científicas, o Círculo Paraguayo de Médicos e a Academia de Medicina defendem atrelar a consulta a 1,5 diária mínima (cerca de G 175 mil hoje) e criar uma unidade "galeno" para procedimentos.<sup><a href="#f6">6</a></sup></li>
+  <li><strong>Plantões em sanatórios:</strong> são a complementação de renda mais comum para quem tem vínculo público. Os valores variam muito por instituição e especialidade e não há fonte pública confiável.</li>
+</ul>
+<div class="note">
+  <p>Leitura prática: quem ganha bem no Paraguai é, em geral, o especialista com consultório próprio cheio de pacientes particulares, combinado com um ou dois vínculos públicos que garantem previdência e estabilidade. Atender só por prepaga tende a render pouco por consulta.</p>
+</div>
+
+<h2>Custo de vida</h2>
+<p>O salário mínimo é de <span class="num">G 3.044.000</span> por mês desde 1º de julho de 2026 (≈ US$ 516).<sup><a href="#f13">14</a></sup> Valores de referência para Assunção em 2026:<sup><a href="#f8">8</a></sup></p>
+<div class="table-wrap">
+<table>
+  <thead><tr><th>Item</th><th class="r">Guaranis por mês</th><th class="r">≈ US$</th></tr></thead>
+  <tbody>
+    <tr><td>Apartamento de 1 quarto mobiliado, região central</td><td class="r">2,8 a 4 milhões</td><td class="r">445–635</td></tr>
+    <tr><td>Apartamento familiar de 3 quartos</td><td class="r">4,5 a 7 milhões</td><td class="r">715–1.110</td></tr>
+    <tr><td>Luz, água, lixo e gás</td><td class="r">400 a 700 mil</td><td class="r">65–110</td></tr>
+    <tr><td>Internet de fibra</td><td class="r">190 a 260 mil</td><td class="r">30–41</td></tr>
+    <tr><td>Plano de saúde privado por adulto</td><td class="r">350 a 700 mil</td><td class="r">55–110</td></tr>
+    <tr><td>Almoço executivo</td><td class="r">35 a 50 mil</td><td class="r">5,50–8</td></tr>
+    <tr><td>Escola internacional ou bilíngue (por filho, por ano)</td><td class="r">—</td><td class="r">4.000–9.000</td></tr>
+  </tbody>
+</table>
+</div>
+<p>Orçamento mensal estimado: US$ 900 a 1.400 para uma pessoa e US$ 2.000 a 3.000 para uma família de quatro com escola internacional e plano privado.<sup><a href="#f8">8</a></sup> Ou seja, um médico com três vínculos públicos (≈ US$ 2.500) sustenta uma família de classe média em Assunção, mas sem folga. A renda que permite padrão alto vem do consultório e dos plantões privados.</p>
+<p>Observação sobre o câmbio: o guarani se valorizou bastante desde 2025 (de cerca de G 7.800 para G 5.700–6.300 por dólar).<sup><a href="#f8">8</a>,<a href="#f5b">12</a></sup> Isso encarece o Paraguai para quem ganha em reais ou dólares.</p>
+
+<h2>O que isso significa para um médico brasileiro</h2>
+<p>Esta seção é análise, não dado oficial.</p>
+<ul>
+  <li><strong>Salário público não é o atrativo.</strong> Mesmo com o reajuste de 2027, um vínculo do Ministério vai pagar cerca de US$ 1.200. O emprego público serve mais como base de previdência (IPS) e rede de contatos do que como fonte principal de renda. Além disso, vagas públicas costumam exigir concurso e documentação que dependem do registro do diploma, tema tratado em outra frente do projeto.</li>
+  <li><strong>O consultório particular é o caminho.</strong> Com consulta de especialista entre US$ 50 e 150 e custo fixo baixo (aluguel, funcionários), o consultório próprio é onde está a margem.</li>
+  <li><strong>A fronteira é um nicho natural.</strong> Ciudad del Este, Pedro Juan Caballero e Salto del Guairá têm grande população brasileira e brasiguaia, que prefere ser atendida em português. Um médico brasileiro ali tem diferencial que um paraguaio não tem.</li>
+  <li><strong>Especialidade conta mais que generalismo.</strong> O mercado tem excesso de generalistas recém-formados e falta de especialistas, sobretudo fora de Assunção.</li>
+  <li><strong>Prepagas pagam pouco.</strong> Depender de convênio é parecido com o cenário brasileiro, só que com tabelas ainda mais defasadas. Vale acompanhar a reforma da Lei 480.</li>
+</ul>
+
+<h2>Fontes</h2>
+<ol class="sources">
+  <li id="f1"><a href="https://prensamercosur.org/2026/09/05/paraguay-crisis-medica-pone-a-los-hospitales-al-limite-mientras-el-gobierno-y-los-gremios-siguen-sin-acuerdo/">Prensa Mercosur, "Paraguay: crisis médica pone a los hospitales al límite…", 5 set. 2026</a></li>
+  <li id="f2"><a href="https://infonegocios.com.py/minuto-salud/mas-demanda-menos-preparacion-el-diagnostico-actual-de-la-profesion-medica">InfoNegocios, "Más demanda, menos preparación: el diagnóstico actual de la profesión médica", 2025</a></li>
+  <li id="f3"><a href="https://www.ultimahora.com/medicos-de-ips-no-descartan-paro-general-por-incumplimiento-de-nivelacion-salarial">Última Hora, "Médicos de IPS no descartan paro general por incumplimiento de nivelación salarial", 25 jun. 2024</a></li>
+  <li id="f4"><a href="https://www.abc.com.py/nacionales/2026/10/15/sinamed-y-el-ministerio-de-salud-homologan-el-acuerdo-para-el-reajuste-salarial/">ABC Color, "Sinamed y el Ministerio de Salud homologan el acuerdo para el reajuste salarial", 15 out. 2026</a></li>
+  <li id="f5"><a href="https://www.nodal.am/2026/09/paraguay-el-gobierno-y-el-sindicato-nacional-de-medicos-alcanzaron-un-acuerdo-que-contempla-un-reajuste-salarial-lo-que-permitira-destrabar-la-huelga-nacional/">Nodal, "Paraguay: el Gobierno y el Sindicato Nacional de Médicos alcanzaron un acuerdo…", set. 2026</a></li>
+  <li id="f6"><a href="https://www.abc.com.py/nacionales/2026/08/03/ante-desfasaje-historico-medicos-plantean-actualizar-ley-que-regula-sus-aranceles/">ABC Color, "Ante desfasaje histórico, médicos plantean actualizar ley que regula sus aranceles", 3 ago. 2026</a></li>
+  <li id="f7"><a href="https://www.paraguay-resident.com.py/en-us/blogs/news/systeme-sante-paraguayen-public-prive-prepaga-2026">Paraguay Resident, "Paraguayan Healthcare System: Public, IPS, and Prepayment Explained", 2026</a></li>
+  <li id="f8"><a href="https://www.riotimesonline.com/paraguay-cost-of-living-guide-for-expats-2026/">The Rio Times, "Paraguay cost of living guide for expats 2026", ago. 2026</a></li>
+  <li id="f9"><a href="https://www.ultimahora.com/por-cada-10-000-habitantes-hay-menos-de-5-medicos-en-alto-paraguay-y-boqueron">Última Hora, "Por cada 10.000 habitantes hay menos de 5 médicos en Alto Paraguay y Boquerón", 14 mar. 2025</a></li>
+  <li id="f10"><a href="https://www.ultimahora.com/casi-10000-brasilenos-estudian-una-carrera-salud-solo-pedro-juan-n1092041">Última Hora, "Casi 10.000 brasileños estudian una carrera de salud solo en Pedro Juan", jun. 2017</a></li>
+  <li id="f8b"><a href="https://www.riotimesonline.com/healthcare-paraguay-expats-2026/">The Rio Times, "Healthcare in Paraguay for expats: private hospitals and costs 2026"</a> (contribuição ao IPS)</li>
+  <li id="f5b"><a href="https://www.riotimesonline.com/paraguay-doctors-mass-resignations-pay-2026/">The Rio Times, "Paraguay doctors mass resignations over pay", 1 set. 2026</a></li>
+  <li id="f12"><a href="https://www.ultimahora.com/20-medicos-terapistas-del-hospital-nacional-itaugua-renuncian-ir-ips-n2937506.html">Última Hora, "20 médicos terapistas del Hospital Nacional de Itauguá renuncian para ir a IPS", 23 abr. 2021</a></li>
+  <li id="f13"><a href="https://www.abc.com.py/economia/2026/06/26/reajuste-del-salario-minimo-estos-son-los-pagos-por-hora-dia-y-jornada-nocturna/">ABC Color, "Reajuste del salario mínimo: estos son los pagos por hora, día y jornada nocturna", 26 jun. 2026</a></li>
+  <li id="f11"><a href="https://www.riotimesonline.com/healthcare-paraguay-expats-2026/">The Rio Times, "Healthcare in Paraguay for expats", 2026</a> (preços de consulta particular)</li>
+</ol>
+
+<footer>
+  Valores em guaranis (G) são brutos e nominais. Conversões para dólar são aproximadas e servem só para comparação. Dados de renda privada são indicativos; confirme com colegas locais antes de qualquer decisão. Revalidação e registro do diploma estão fora do escopo deste texto.
+</footer>
+</main>
