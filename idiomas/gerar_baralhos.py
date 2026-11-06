@@ -7,7 +7,6 @@ import csv, os, shutil, sys
 import genanki
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
-audios, lentos, saida = sys.argv[1:4]
 
 CSS = """
 .card { font-family: -apple-system, 'Segoe UI', Roboto, sans-serif; font-size: 22px;
@@ -31,44 +30,50 @@ MODELO = genanki.Model(
             'name': '1. Ouvir → entender',
             'qfmt': '<div class="tema">{{Tema}}</div>{{Áudio}}<div class="dica">Ouça, repita em voz alta e diga o que significa.</div>',
             'afmt': '<div class="tema">{{Tema}}</div><div class="frase">{{Frase}}</div><div class="pt">{{Português}}</div>'
-                    '{{#Nota}}<div class="nota">{{Nota}}</div>{{/Nota}}<div class="lento">devagar: {{ÁudioLento}}</div>',
+                    '{{#Nota}}<div class="nota">{{Nota}}</div>{{/Nota}}{{#ÁudioLento}}<div class="lento">devagar: {{ÁudioLento}}</div>{{/ÁudioLento}}',
         },
         {
             'name': '2. Português → falar',
             'qfmt': '<div class="tema">{{Tema}}</div><div class="pt">{{Português}}</div><div class="dica">Fale a frase em voz alta antes de virar.</div>',
             'afmt': '{{FrontSide}}<hr><div class="frase">{{Frase}}</div>{{Áudio}}'
-                    '{{#Nota}}<div class="nota">{{Nota}}</div>{{/Nota}}<div class="lento">devagar: {{ÁudioLento}}</div>',
+                    '{{#Nota}}<div class="nota">{{Nota}}</div>{{/Nota}}{{#ÁudioLento}}<div class="lento">devagar: {{ÁudioLento}}</div>{{/ÁudioLento}}',
         },
     ],
     css=CSS,
 )
 
-BARALHOS = [
-    ('espanhol-paraguaio.tsv', 'es', 2059417301, 'Paraguay::Español paraguayo — 100 frases', 'espanhol-paraguaio.apkg'),
-    ('guarani-jopara.tsv', 'gn', 2059417302, 'Paraguay::Guaraní jopará — 100 frases', 'guarani-jopara.apkg'),
-]
 
-for tsv, pre, deck_id, nome, arquivo in BARALHOS:
-    deck = genanki.Deck(deck_id, nome)
-    midia = []
-    for r in csv.DictReader(open(os.path.join(AQUI, tsv), encoding='utf-8'), delimiter='\t'):
-        i = int(r['id'])
-        a, al = f'py_{pre}_{i:03d}.mp3', f'py_{pre}_{i:03d}_lento.mp3'
-        midia += [(os.path.join(audios, f'{pre}_{i:03d}.mp3'), a), (os.path.join(lentos, f'{pre}_{i:03d}_lento.mp3'), al)]
-        deck.add_note(genanki.Note(
-            model=MODELO,
-            fields=[r['frase'], r['pt'], r['nota'], r['tema'], f'[sound:{a}]', f'[sound:{al}]'],
-            tags=[r['tema'].replace(' ', '_')],
-            guid=genanki.guid_for(pre, i),
-            sort_field=i,
-        ))
-    # genanki usa o nome do arquivo de origem, então copia com o nome final
-    tmp = os.path.join(saida, '_midia_' + pre)
-    os.makedirs(tmp, exist_ok=True)
-    arquivos = []
-    for src, dst in midia:
-        d = os.path.join(tmp, dst)
-        shutil.copy(src, d)
-        arquivos.append(d)
-    genanki.Package(deck, media_files=arquivos).write_to_file(os.path.join(saida, arquivo))
-    print(arquivo, len(deck.notes), 'notas')
+def main(audios, lentos, saida):
+    BARALHOS = [
+        ('espanhol-paraguaio.tsv', 'es', 2059417301, 'Paraguay::Español paraguayo — 100 frases', 'espanhol-paraguaio.apkg'),
+        ('guarani-jopara.tsv', 'gn', 2059417302, 'Paraguay::Guaraní jopará — 100 frases', 'guarani-jopara.apkg'),
+    ]
+
+    for tsv, pre, deck_id, nome, arquivo in BARALHOS:
+        deck = genanki.Deck(deck_id, nome)
+        midia = []
+        for r in csv.DictReader(open(os.path.join(AQUI, tsv), encoding='utf-8'), delimiter='\t'):
+            i = int(r['id'])
+            a, al = f'py_{pre}_{i:03d}.mp3', f'py_{pre}_{i:03d}_lento.mp3'
+            midia += [(os.path.join(audios, f'{pre}_{i:03d}.mp3'), a), (os.path.join(lentos, f'{pre}_{i:03d}_lento.mp3'), al)]
+            deck.add_note(genanki.Note(
+                model=MODELO,
+                fields=[r['frase'], r['pt'], r['nota'], r['tema'], f'[sound:{a}]', f'[sound:{al}]'],
+                tags=[r['tema'].replace(' ', '_')],
+                guid=genanki.guid_for(pre, i),
+                sort_field=i,
+            ))
+        # genanki usa o nome do arquivo de origem, então copia com o nome final
+        tmp = os.path.join(saida, '_midia_' + pre)
+        os.makedirs(tmp, exist_ok=True)
+        arquivos = []
+        for src, dst in midia:
+            d = os.path.join(tmp, dst)
+            shutil.copy(src, d)
+            arquivos.append(d)
+        genanki.Package(deck, media_files=arquivos).write_to_file(os.path.join(saida, arquivo))
+        print(arquivo, len(deck.notes), 'notas')
+
+
+if __name__ == '__main__':
+    main(*sys.argv[1:4])
