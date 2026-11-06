@@ -1,0 +1,101 @@
+id	frase	pt	nota	tema
+1	¡Hola! ¿Qué tal, todo bien?	Oi! Tudo bem?		saudações
+2	Todo bien, ¿y vos?	Tudo bem, e você?	"No Paraguai se usa ""vos"" no lugar de ""tú""."	saudações
+3	¡Mba'éichapa! ¿Cómo andás?	Oi! Como vai?	Mba'éichapa é a saudação guarani, usada no meio do espanhol o tempo todo.	saudações
+4	¿Y upéi? ¿Qué contás?	E aí? Quais as novidades?	"Y upéi (guarani ""e depois?"") funciona como ""e aí?""."	saudações
+5	Mucho gusto, me llamo Christian.	Muito prazer, meu nome é Christian.		apresentação
+6	¿Cómo te llamás?	Como você se chama?	"Voseo: llamás (tônica no final), não ""llamas""."	apresentação
+7	¿De dónde sos?	De onde você é?	Voseo: sos = eres.	apresentação
+8	Soy de Brasil, pero ya me siento medio paraguayo.	Sou do Brasil, mas já me sinto meio paraguaio.		apresentação
+9	Soy médico; trabajo con salud y nutrición.	Sou médico; trabalho com saúde e nutrição.		apresentação
+10	¿Vos sos de Asunción?	Você é de Assunção?		apresentação
+11	¿Hace cuánto vivís acá?	Há quanto tempo você mora aqui?	"Acá é muito mais comum que ""aquí""."	apresentação
+12	Me voy a mudar a Paraguay el año que viene.	Vou me mudar para o Paraguai no ano que vem.		apresentação
+13	Estoy aprendiendo español y un poquito de guaraní.	Estou aprendendo espanhol e um pouquinho de guarani.		aprender
+14	Disculpá mi portuñol, todavía estoy aprendiendo.	Desculpa meu portunhol, ainda estou aprendendo.	Disculpá (voseo) = disculpa.	aprender
+15	¿Podés hablar más despacio, por favor?	Você pode falar mais devagar, por favor?	Podés = puedes.	aprender
+16	¿Me repetís, por favor?	Pode repetir, por favor?		aprender
+17	No entendí. ¿Qué significa eso?	Não entendi. O que isso significa?		aprender
+18	¿Cómo se dice esto en guaraní?	Como se diz isso em guarani?		aprender
+19	Mi profesora es paraguaya y me enseña un montón.	Minha professora é paraguaia e me ensina muita coisa.	Un montón = muito.	aprender
+20	¿Me corregís si digo algo mal?	Você me corrige se eu falar algo errado?		aprender
+21	¿Tomamos un tereré?	Vamos tomar um tereré?	Tereré: mate gelado, bebida nacional. Convite clássico de amizade.	tereré e comida
+22	Pasame la guampa, porfa.	Me passa a guampa, por favor.	"Guampa = o copo do tereré. ""Porfa"" = por favor, informal."	tereré e comida
+23	¿Con qué yuyo lo preparaste?	Com que erva você preparou?	Yuyos = ervas medicinais socadas que vão na água do tereré.	tereré e comida
+24	El tereré se toma en ronda; no se dice gracias hasta que ya no querés más.	O tereré se toma em roda; não se diz obrigado até não querer mais.	"Etiqueta: dizer ""gracias"" ao devolver a guampa significa que você saiu da roda."	tereré e comida
+25	¡Qué rico está esto!	Que gostoso isso!		tereré e comida
+26	Quiero probar la chipa y la sopa paraguaya.	Quero provar a chipa e a sopa paraguaia.	Sopa paraguaya é uma torta sólida de milho e queijo, não sopa.	tereré e comida
+27	Dame dos chipas, por favor.	Me dá duas chipas, por favor.		tereré e comida
+28	¿Vamos a hacer un asadito el domingo?	Vamos fazer um churrasquinho no domingo?	Diminutivos (-ito) são muito usados e soam carinhosos.	tereré e comida
+29	Tengo hambre. ¿Vamos a comer algo?	Estou com fome. Vamos comer alguma coisa?		tereré e comida
+30	¡Hola a todos! ¿Cómo están? Bienvenidos a mi canal.	Olá a todos! Como vão? Bem-vindos ao meu canal.	"Abertura de vídeo. No Paraguai o plural é sempre ""ustedes"" (nunca ""vosotros"")."	vídeos
+31	¿Qué me recomendás?	O que você me recomenda?		restaurante
+32	Hoy les quiero hablar de un tema muy importante para la salud.	Hoje quero falar com vocês sobre um tema muito importante para a saúde.	"""Les"" = a vocês."	vídeos
+33	¿Me traés la cuenta, por favor?	Me traz a conta, por favor?		restaurante
+34	¿Aceptan tarjeta o solo efectivo?	Aceitam cartão ou só dinheiro?		compras
+35	¿Cuánto sale?	Quanto custa?	¿Cuánto sale? é a forma mais comum de perguntar preço.	compras
+36	Está un poco caro, che. ¿No me hacés un descuentito?	Está um pouco caro. Não me faz um descontinho?	Che aqui é só um vocativo amigável.	compras
+37	Son cincuenta mil guaraníes.	São cinquenta mil guaranis.	A moeda é o guarani; os preços têm muitos zeros.	compras
+38	Soy médico brasileño y hace años estudio nutrición y longevidad.	Sou médico brasileiro e há anos estudo nutrição e longevidade.		vídeos
+39	¿Dónde queda el baño?	Onde fica o banheiro?		cidade
+40	¿Dónde queda la farmacia más cercana?	Onde fica a farmácia mais próxima?		cidade
+41	¿Está lejos de acá?	É longe daqui?		cidade
+42	Seguí derecho y doblá a la izquierda.	Siga reto e vire à esquerda.	Seguí, doblá: imperativo do voseo, tônica no final.	cidade
+43	Llevame al centro, por favor.	Me leva para o centro, por favor.	Útil com táxi, Bolt ou Uber.	cidade
+44	Perdón por la demora, había mucho tráfico.	Desculpe a demora, tinha muito trânsito.		cidade
+45	Lo que te voy a contar ahora casi ningún médico te lo dice.	O que vou te contar agora quase nenhum médico te diz.	Gancho típico de vídeo.	vídeos
+46	Ya vengo.	Já volto.	"No Paraguai ""ya vengo"" significa ""volto já"", mesmo quando você está saindo."	dia a dia
+47	Esperame un ratito.	Me espera um minutinho.		dia a dia
+48	Vení un poco.	Vem cá um instante.	Un poco suaviza pedidos; é marca do espanhol paraguaio (vem do guarani -mi).	dia a dia
+49	¿Me ayudás un poco?	Você me ajuda um pouquinho?	"Mesma suavização com ""un poco""."	dia a dia
+50	Decime nomás.	Pode falar.	Nomás = à vontade, sem problema.	dia a dia
+51	Dale, de una.	Fechado, bora.		dia a dia
+52	Tranquilo, no pasa nada.	Tranquilo, não tem problema.		dia a dia
+53	Gracias, muy amable.	Obrigado, muito gentil.		dia a dia
+54	De nada, no hay problema.	De nada, sem problema.		dia a dia
+55	Disculpá, ¿te puedo hacer una pregunta?	Com licença, posso te fazer uma pergunta?		dia a dia
+56	¿Qué hora es?	Que horas são?		dia a dia
+57	Prestá atención a esto, porque es clave.	Preste atenção nisso, porque é fundamental.	"Prestá = voseo de ""presta""."	vídeos
+58	¡Qué calor que hace, che!	Que calor que está fazendo!		dia a dia
+59	Mirá este estudio: los resultados son impresionantes.	Olha este estudo: os resultados são impressionantes.	"Mirá = voseo de ""mira""."	vídeos
+60	Estoy cansado, voy a dormir la siesta.	Estou cansado, vou tirar uma sesta.	A sesta é sagrada; muito comércio fecha no meio do dia.	dia a dia
+61	¿En serio? ¡No te puedo creer!	Sério? Não acredito!		reações
+62	¡Qué bueno! Me alegro mucho.	Que bom! Fico muito feliz.		reações
+63	¡Angá, pobrecito!	Ai, coitadinho!	Angá é guarani e expressa pena ou carinho.	reações
+64	¡Nde, qué lindo!	Nossa, que lindo!	Nde (guarani) como exclamação de surpresa.	reações
+65	¡Qué buena onda sos!	Como você é gente boa!		reações
+66	¡Jaha! Vamos nomás.	Bora! Vamos lá.	Jaha = vamos, em guarani.	reações
+67	Pasame tu número y te escribo por WhatsApp.	Me passa seu número e eu te escrevo no WhatsApp.		amizade
+68	Te mando un audio.	Te mando um áudio.		amizade
+69	¿Qué vas a hacer el fin de semana?	O que você vai fazer no fim de semana?		amizade
+70	¿Querés salir a tomar algo esta noche?	Quer sair para beber alguma coisa hoje à noite?	Querés = quieres.	amizade
+71	¿Sos de Olimpia o de Cerro?	Você torce para o Olimpia ou para o Cerro?	Os dois maiores clubes de futebol do país; puxa conversa na hora.	amizade
+72	Me encanta la polca y la guarania.	Adoro a polca e a guarânia.	Os dois ritmos musicais típicos do Paraguai.	amizade
+73	¿Cómo está tu familia?	Como está sua família?		amizade
+74	¿Tenés hijos?	Você tem filhos?	Tenés = tienes.	amizade
+75	Mi familia está en Brasil, pero viene a visitarme.	Minha família está no Brasil, mas vem me visitar.		amizade
+76	Nos vemos luego.	A gente se vê depois.		despedidas
+77	Chau, cuidate mucho.	Tchau, se cuida.	Cuidate (voseo) = cuídate.	despedidas
+78	¡Que te vaya bien!	Vai com Deus! / Boa sorte!		despedidas
+79	Si te gustó el video, suscribite y compartilo con tu familia.	Se gostou do vídeo, se inscreve e compartilha com sua família.	Suscribite, compartilo: imperativo do voseo.	vídeos
+80	Estoy haciendo los trámites de la residencia.	Estou fazendo os trâmites da residência.		burocracia
+81	Dejame en los comentarios qué tema querés que hable.	Me deixa nos comentários sobre que tema você quer que eu fale.		vídeos
+82	Quiero abrir una cuenta en el banco.	Quero abrir uma conta no banco.		burocracia
+83	Ojo, esto no reemplaza la consulta con tu médico.	Atenção, isto não substitui a consulta com seu médico.	"""Ojo"" = atenção, cuidado. Aviso importante em vídeo de saúde."	vídeos
+84	Nos vemos en el próximo video. ¡Jajotopata!	Até o próximo vídeo. A gente se vê!	"Jajotopata = ""nos vemos"" em guarani; fecho que agrada muito."	vídeos
+85	Buen día, soy el doctor Aguiar. ¿En qué le puedo ayudar?	Bom dia, sou o doutor Aguiar. Em que posso ajudar?	"Com pacientes, especialmente mais velhos, use ""usted""."	consultório
+86	¿Qué le duele?	O que está doendo?		consultório
+87	¿Desde cuándo se siente así?	Desde quando o senhor se sente assim?		consultório
+88	¿Tuvo fiebre?	Teve febre?		consultório
+89	¿Es alérgico a algún medicamento?	É alérgico a algum medicamento?		consultório
+90	¿Toma algún remedio todos los días?	Toma algum remédio todos os dias?	Remedio é o termo coloquial para medicamento.	consultório
+91	Respire hondo, por favor.	Respire fundo, por favor.		consultório
+92	Muchísimas gracias por mirar hasta el final.	Muito obrigado por assistir até o final.	Mirar = assistir (vídeo, TV).	vídeos
+93	Le voy a pedir unos análisis de sangre.	Vou pedir uns exames de sangue.	Análisis = exames laboratoriais.	consultório
+94	Tome este remedio cada ocho horas.	Tome este remédio a cada oito horas.		consultório
+95	No se preocupe, no es nada grave.	Não se preocupe, não é nada grave.		consultório
+96	Si empeora, vuelva enseguida.	Se piorar, volte logo.		consultório
+97	Paraguay me recibió con los brazos abiertos.	O Paraguai me recebeu de braços abertos.		simpatia
+98	La gente acá es muy cariñosa.	As pessoas aqui são muito carinhosas.		simpatia
+99	¡Salud, che ra'a!	Saúde, meu amigo!	Che ra'a = meu amigo, em guarani. Brinde perfeito.	simpatia
+100	¡Feliz cumpleaños! Que cumplas muchos más.	Feliz aniversário! Muitos anos de vida.		simpatia

@@ -1,0 +1,101 @@
+id	frase	pt	nota	tema
+1	Mba'éichapa?	Oi, tudo bem?	A saudação mais usada no Paraguai, inclusive por quem fala espanhol.	saudações
+2	Iporã, ha nde?	Bem, e você?	Iporã = está bom. Ha = e. Nde = você.	saudações
+3	Iporãnte, aguyje.	Tudo bem, obrigado.	-nte = só, apenas ("só bem").	saudações
+4	Mba'éichapa nde pyhareve?	Bom dia! (como foi sua manhã?)	Pyhareve = manhã.	saudações
+5	Mba'éichapa ne ka'aru?	Boa tarde!	Ka'aru = tarde.	saudações
+6	Mba'éichapa nde pyhare?	Boa noite!	Pyhare = noite.	saudações
+7	Ha upéi?	E aí?	Literalmente "e depois?". Muito informal.	saudações
+8	Mba'e la porte?	Qual é a boa? / E aí, beleza?	Jopará puro: "la porte" vem do espanhol "el porte".	saudações
+9	Mba'éichapa, che ra'a?	E aí, meu amigo?	Che ra'a = meu amigo (bem coloquial).	saudações
+10	Mba'éichapa opavave!	Olá a todos!	Opavave = todo mundo. Ótima abertura de vídeo.	vídeos
+11	Tereguahẽ porãite!	Seja muito bem-vindo!	Ẽ nasal. -ite intensifica.	saudações
+12	Peguahẽ porãite che canal-pe.	Sejam bem-vindos ao meu canal.	Pe- = vocês. -pe = em, para. Jopará: "canal" fica em espanhol.	vídeos
+13	Aguyje!	Obrigado!	Tônica no último "je".	cortesia
+14	Aguyjevete!	Muito obrigado!	-vete reforça o agradecimento.	cortesia
+15	Aguyjevete pehecháre ko video.	Muito obrigado por assistirem a este vídeo.	Pehecha = vocês veem. -re = por (causa).	vídeos
+16	Ndaipóri problema.	Sem problema.	Jopará muito comum.	cortesia
+17	Jajotopata!	A gente se vê!	Despedida mais comum. Fecho de vídeo perfeito.	despedidas
+18	Jajohecha peve!	Até a próxima!	Peve = até.	despedidas
+19	Aháma.	Já vou indo.	-ma = já.	despedidas
+20	Che réra Christian.	Meu nome é Christian.	Che = eu/meu. Téra/réra = nome.	apresentação
+21	Mba'éichapa nde réra?	Como você se chama?		apresentação
+22	Mamógui piko nde?	De onde você é?	Piko marca pergunta, dá tom de curiosidade.	apresentação
+23	Che brasilgua.	Sou brasileiro.	-gua = natural de.	apresentação
+24	Che pohanohára.	Sou médico.	Pohã = remédio. Pohanohára = quem cura.	apresentação
+25	Amba'apo pohanohárarõ.	Trabalho como médico.	-rõ = como, na função de.	apresentação
+26	Che aiko Asunción-pe.	Moro em Assunção.	Aiko = vivo, moro.	apresentação
+27	Che aikose ko'ápe.	Quero morar aqui.	-se = querer. Ko'ápe = aqui.	apresentação
+28	Ahayhu Paraguay.	Eu amo o Paraguai.	Frase que sempre arranca sorriso.	simpatia
+29	Paraguay ningo tetã porã.	O Paraguai é um país lindo.	Ningo = ênfase ("é que..."). Tetã = país.	simpatia
+30	Paraguaigua ningo ipy'aporã.	Os paraguaios têm um coração bom.	Py'a = coração/estômago. Py'aporã = bondoso.	simpatia
+31	Michĩmínte añe'ẽ guaraníme.	Falo só um pouquinho de guarani.	Michĩ = pequeno. -me = em (idioma).	aprender
+32	Aikuaase guarani.	Quero aprender guarani.	Literalmente "quero saber guarani".	aprender
+33	Che mbo'ehára paraguaya.	Minha professora é paraguaia.	Mbo'ehára = professor(a). Jopará: "paraguaya" em espanhol.	aprender
+34	Aguyje, che mbo'ehára!	Obrigado, minha professora!	Diga isso para ela na primeira aula.	aprender
+35	Ndaikuaái.	Não sei.	Nd-...-i = negação (circunda o verbo).	aprender
+36	Nantendéi.	Não entendo.	Jopará: verbo espanhol "entender" com negação guarani.	aprender
+37	Eñe'ẽ mbeguemi, por favor.	Fale devagarinho, por favor.	Mbegue = devagar. -mi = diminutivo carinhoso.	aprender
+38	Ere jey.	Fala de novo.	Jey = de novo.	aprender
+39	Mba'épa he'ise upéva?	O que isso quer dizer?	-pa = marca de pergunta. Upéva = isso.	aprender
+40	Mba'éichapa oje'e upéva guaraníme?	Como se diz isso em guarani?		aprender
+41	Heẽ.	Sim.	Ẽ nasal e longo.	básico
+42	Nahániri.	Não.		básico
+43	Ikatu.	Pode. / Dá pra fazer.		básico
+44	Ndaikatúi.	Não posso. / Não dá.		básico
+45	Upéicha.	Isso mesmo. / É assim.		básico
+46	Ajépa?	Né? / Não é verdade?	Vai no fim da frase, como "né".	básico
+47	Añetehápe?	Sério? De verdade?		reações
+48	Iporãiterei!	Muito bom! Excelente!	-iterei = muito.	reações
+49	Nde py'aporã.	Você é muito gente boa.	Elogio sincero, sem conotação romântica.	reações
+50	Angá!	Coitado! / Que pena!		reações
+51	Chake!	Cuidado!	Muito usado com crianças.	reações
+52	Pya'e!	Rápido!		reações
+53	Mbeguekatúpe.	Com calma. / Devagar e sempre.		reações
+54	Eju ko'ápe.	Vem cá.	E- = imperativo (você).	pedidos
+55	Ejumína.	Vem, por favor.	-mína suaviza o pedido, como "por favorzinho".	pedidos
+56	Ehendu.	Escuta.		pedidos
+57	Ehecha.	Olha.	Ótimo para mostrar algo num vídeo.	pedidos
+58	Jaha!	Vamos!	Ja- = nós (incluindo você).	pedidos
+59	Jaha jay'u tereré.	Vamos tomar tereré.	Y'u = beber água/líquido.	tereré e comida
+60	Embohasami chéve la guampa.	Me passa a guampa, por favor.	Jopará: "la guampa". -mi suaviza.	tereré e comida
+61	Ejapomína peteĩ tereré.	Prepara um tereré, por favor.	Peteĩ = um.	tereré e comida
+62	Aipota peteĩ chipa.	Quero uma chipa.	Aipota = eu quero.	tereré e comida
+63	Mboýpa ovale?	Quanto custa?	Jopará: "ovale" vem do espanhol "vale".	compras
+64	Hepyeterei!	Muito caro!	Hepy = caro.	compras
+65	Heterei!	Que gostoso!	Diga isso ao provar comida.	tereré e comida
+66	Che ñembyahýi.	Estou com fome.		tereré e comida
+67	Che y'uhéi.	Estou com sede.		tereré e comida
+68	Che ryguatãma.	Já estou satisfeito.		tereré e comida
+69	Jaha jakaru.	Vamos comer.	Karu = comer (refeição).	tereré e comida
+70	Hakueterei ko ára.	Que calor está hoje.	Haku = quente. Ko ára = hoje.	dia a dia
+71	Ro'yeterei.	Está muito frio.		dia a dia
+72	Oky hína.	Está chovendo.	Hína = está (acontecendo agora).	dia a dia
+73	Che kane'õ.	Estou cansado.		dia a dia
+74	Aháta ake.	Vou dormir.	-ta = futuro.	dia a dia
+75	Aháta amba'apo.	Vou trabalhar.		dia a dia
+76	Moõpa reho?	Aonde você vai?	Moõ = onde.	dia a dia
+77	Moõpa oĩ baño?	Onde fica o banheiro?	Oĩ = há, está. Jopará: "baño".	dia a dia
+78	Moõpa oĩ farmacia?	Onde tem farmácia?		dia a dia
+79	Araka'épa rejúta?	Quando você vem?	Araka'e = quando.	dia a dia
+80	Mba'épa rejapo hína?	O que você está fazendo?		dia a dia
+81	Mba'ére piko?	Por quê?		dia a dia
+82	Ndaje oúta oky.	Dizem que vai chover.	Ndaje = dizem que (fofoca, boato).	dia a dia
+83	Avy'a rohechávo.	Que bom te ver!	Vy'a = alegria.	simpatia
+84	Avy'aiterei roikuaávo.	Muito prazer em te conhecer.		simpatia
+85	Rohayhu.	Te amo. / Gosto muito de você.	Usa-se também com família e amigos próximos.	simpatia
+86	Ñandejára toñangareko nderehe.	Que Deus cuide de você.	Ñandejára = Deus ("nosso Senhor").	simpatia
+87	Mba'éichapa nde rogayguakuéra?	Como vai sua família?	-kuéra = plural.	família
+88	Che sy ha che ru oiko Brasil-pe.	Minha mãe e meu pai moram no Brasil.	Sy = mãe. Ru = pai.	família
+89	Mba'éichapa reñeñandu?	Como você está se sentindo?	Pergunta de médico, soa muito acolhedora.	consultório
+90	Moõpa nderasy?	Onde dói?	Rasy = dor, doente.	consultório
+91	Che akã rasy.	Estou com dor de cabeça.	Akã = cabeça.	consultório
+92	Che rye rasy.	Estou com dor de barriga.	Rye = barriga.	consultório
+93	Reguerekópa akãnundu?	Você está com febre?	Akãnundu = febre.	consultório
+94	Eñeno ko'ápe.	Deite aqui.		consultório
+95	Emokõ ko pohã.	Tome (engula) este remédio.	Mokõ = engolir. Pohã = remédio.	consultório
+96	Ani rejepy'apy.	Não se preocupe.	Ani = não (proibição).	consultório
+97	Aiko porãma.	Já estou bem.		consultório
+98	Ko'ágã ñañe'ẽta tesãire.	Agora vamos falar de saúde.	Ko'ágã = agora. Tesãi = saúde. Abertura de vídeo.	vídeos
+99	Pehai chéve comentario-pe.	Escrevam para mim nos comentários.	Pe- = vocês. Jopará: "comentario".	vídeos
+100	Ñandejára toñangareko penderehe. Jajotopata!	Que Deus cuide de vocês. Até a próxima!	Fecho de vídeo que toca o coração paraguaio.	vídeos
