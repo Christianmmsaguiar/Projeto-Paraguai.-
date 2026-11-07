@@ -99,3 +99,11 @@ id	frase	pt	nota	tema
 98	La gente acá es muy cariñosa.	As pessoas aqui são muito carinhosas.		simpatia
 99	¡Salud, che ra'a!	Saúde, meu amigo!	Che ra'a = meu amigo, em guarani. Brinde perfeito.	simpatia
 100	¡Feliz cumpleaños! Que cumplas muchos más.	Feliz aniversário! Muitos anos de vida.		simpatia
+101	¿Se han documentado casos de animales que migraron fuera de sus continentes? Por ejemplo, ¿un león en China?	Há casos documentados de animais que migraram para fora dos seus continentes? Por exemplo, um leão na China?	Sua correção: "ya fueran relatados" → "¿se han documentado...?"; "para fuera de" → "fuera de"; "continentes" (sem i); "león" (plural: leones), não "leone" (italiano).	mis correcciones
+102	¿Cuál es la mayor debilidad de la humanidad que la IA podría explotar fácilmente?	Qual é a maior fraqueza da humanidade que a IA poderia explorar facilmente?	"Debilidad" = fraqueza. "Explotar" aqui = explorar, tirar proveito. Também quer dizer "explodir"; o contexto decide.	IA y sociedad
+103	Somos muy susceptibles a los sesgos emocionales y cognitivos.	Somos muito suscetíveis aos vieses emocionais e cognitivos.	"Sesgo" = viés. "Sesgo de confirmación" = viés de confirmação.	IA y sociedad
+104	Perseguimos la confirmación de creencias existentes.	Buscamos a confirmação de crenças que já temos.	"Creencia" = crença (de "creer").	IA y sociedad
+105	Reaccionamos con fuerza ante el miedo, el deseo y la prueba social.	Reagimos com força diante do medo, do desejo e da prova social.	"Ante" = diante de. "Prueba social" = prova social (fazer o que os outros fazem).	IA y sociedad
+106	Confiamos en exceso en sistemas que parecen autoritativos.	Confiamos demais em sistemas que parecem ter autoridade.	"Confiar en" (não "confiar de"). "En exceso" = demais.	IA y sociedad
+107	Una IA que modele estos patrones puede moldear opiniones y comportamientos a gran escala.	Uma IA que modele esses padrões pode moldar opiniões e comportamentos em grande escala.	"Patrón" = padrão. "Moldear" = moldar. "Modele" está no subjuntivo (uma IA qualquer que faça isso).	IA y sociedad
+108	Es mucho más efectiva que cualquier persuasión tradicional.	É muito mais eficaz do que qualquer persuasão tradicional.	"Más... que" (sem "do"): "más efectiva que".	IA y sociedad
