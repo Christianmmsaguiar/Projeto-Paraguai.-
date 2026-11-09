@@ -1,0 +1,56 @@
+id	frase	pt	nota	tema
+1	Me dio mucha vergüenza.	Fiquei muito envergonhado (sem graça).	"⚠️ ""Embarazada"" = GRÁVIDA. Nunca diga ""estoy embarazado"" para vergonha. Vergonha = vergüenza; ""me da vergüenza""."	falso amigo
+2	Mi hermana está embarazada.	Minha irmã está grávida.	"Embarazada = grávida. Embaraçado (PT) = avergonzado / ""me dio vergüenza""."	falso amigo
+3	La sopa está exquisita.	A sopa está deliciosa.	Exquisito = delicioso, refinado. Esquisito (PT) = raro, extraño.	falso amigo
+4	Esperame un rato.	Me espera um pouquinho.	Rato = um momento, um tempinho. Rato (animal) = ratón. Voseo paraguaio: esperame (tú: espérame).	falso amigo
+5	Hay mucho polvo en la mesa.	Tem muita poeira na mesa.	Polvo = pó, poeira. Polvo (animal) = pulpo.	falso amigo
+6	Mañana no voy a la oficina.	Amanhã não vou ao escritório.	Oficina = escritório. Oficina mecânica = taller.	falso amigo
+7	Ella no está borracha, está cansada.	Ela não está bêbada, está cansada.	Borracha = BÊBADA. Borracha de apagar = goma (de borrar).	falso amigo
+8	¿Cuál es tu apellido?	Qual é o seu sobrenome?	Apellido = sobrenome. Apelido (PT) = apodo / sobrenombre.	falso amigo
+9	El camino es muy largo.	O caminho é muito comprido (longo).	"Largo = comprido, longo. Largo (PT) = ancho: ""la calle es ancha""."	falso amigo
+10	¿Qué hay para la cena?	O que tem para o jantar?	Cena = jantar (cenar = jantar). Cena de filme = escena.	falso amigo
+11	Le dejé propina al mozo.	Deixei gorjeta para o garçom.	"Propina = GORJETA. Propina (PT, suborno) = coima (Paraguai) / soborno. ""Mozo"" = garçom no Paraguai."	falso amigo
+12	No me acuerdo de su nombre.	Não lembro o nome dele.	Acordarse (de) = lembrar-se. Acordar (do sono) = despertarse.	falso amigo
+13	Te llamo luego.	Te ligo mais tarde.	Luego = depois, mais tarde. Logo (PT, imediatamente) = enseguida / ya.	falso amigo
+14	Mi perra tuvo cachorros.	Minha cachorra teve filhotes.	Cachorro = FILHOTE (de qualquer mamífero). Cachorro (PT) = perro.	falso amigo
+15	Quiero una taza de café.	Quero uma xícara de café.	"Taza = xícara. Taça = copa: ""una copa de vino""."	falso amigo
+16	Un vaso de agua, por favor.	Um copo d'água, por favor.	Vaso = copo. Vaso de planta = maceta; vaso de flores = florero.	falso amigo
+17	Tiene el pelo rubio.	Ele tem o cabelo loiro.	Rubio = LOIRO. Ruivo = pelirrojo.	falso amigo
+18	Compré una torta para el cumpleaños.	Comprei um bolo para o aniversário.	"No Paraguai, bolo = torta. Pastel (PT, frito) ≈ empanada. Atenção: ""pastel"" em espanhol costuma ser bolo/doce."	falso amigo
+19	Tirá eso a la basura.	Joga isso no lixo.	"Tirar = JOGAR, atirar. Tirar (PT, remover) = sacar: ""sacá eso de ahí"". Voseo: tirá."	falso amigo
+20	¿Cuál es la fecha de hoy?	Qual é a data de hoje?	Fecha = data. Fechar = cerrar.	falso amigo
+21	Necesito tu firma aquí.	Preciso da sua assinatura aqui.	Firma = assinatura (firmar = assinar). Firma (PT, empresa) = empresa.	falso amigo
+22	No le pegues al perro.	Não bata no cachorro.	Pegar = BATER, também colar. Pegar (PT, segurar) = agarrar / tomar.	falso amigo
+23	Mi tío es pelado.	Meu tio é careca.	Pelado = careca. Pelado (PT, nu) = desnudo.	falso amigo
+24	El perro brinca en el patio.	O cachorro pula no quintal.	Brincar = pular, saltar. Brincar (PT) = jugar.	falso amigo
+25	Este es un sitio tranquilo.	Este é um lugar tranquilo.	Sitio = lugar (também site). Sítio (PT, propriedade rural) = chacra / quinta (no Paraguai, chacra).	falso amigo
+26	La comida está muy salada.	A comida está muito salgada.	Salado = salgado. Salada = ensalada.	falso amigo
+27	Me gusta el tereré.	Eu gosto de tereré.	"Gustar funciona ao contrário: a coisa é o sujeito. Me gusta + singular; me gustan + plural (me gustan los perros). Nunca ""yo gusto de""."	construção
+28	A mi papá le gusta el fútbol.	Meu pai gosta de futebol.	"Duplicação: ""A mi papá LE gusta"". O ""le"" é obrigatório mesmo com ""a mi papá""."	construção
+29	Me duele la cabeza.	Estou com dor de cabeça.	Doler funciona como gustar: me duele la cabeza, me duelen los pies.	construção
+30	Me cae bien tu amigo.	Eu gosto do seu amigo (vou com a cara dele).	Caer bien/mal = simpatizar ou não com alguém. Muito usado no Paraguai 🟢.	construção
+31	Me puse nervioso.	Fiquei nervoso.	"Ficar + emoção = ponerse: me puse triste, se puso rojo. Não existe ""ficar"" em espanhol."	construção
+32	Me quedé en casa.	Fiquei em casa.	Ficar (permanecer) = quedarse.	construção
+33	El banco queda cerca.	O banco fica perto.	Ficar (localização) = quedar: ¿dónde queda…?	construção
+34	Esa camisa te queda bien.	Essa camisa fica bem em você.	Roupa que fica bem/mal = quedar bien/mal.	construção
+35	Se hizo rico con su empresa.	Ficou rico com a empresa.	Ficar (tornar-se) = hacerse (esforço) ou volverse (mudança de caráter): se volvió loco.	construção
+36	Dejé de fumar.	Parei de fumar.	"Parar de = dejar de. ""Parar"" sozinho é parar fisicamente (el bus paró)."	construção
+37	Se me olvidó la llave.	Esqueci a chave.	"""Se me"" + verbo = algo aconteceu sem querer: se me olvidó, se me perdió."	construção
+38	Se me cayó el celular.	Deixei o celular cair.	"Deixar cair = se me cayó. Não se diz ""dejé caer"" para acidente."	construção
+39	Se lo dije ayer.	Eu disse isso a ele ontem.	"Le + lo vira SE LO: se lo dije (não ""le lo""). Ordem: indireto + direto."	construção
+40	Dáselo a tu hermana.	Dá isso para sua irmã.	Imperativo + pronomes grudados: dáselo, decíselo (voseo).	construção
+41	Le dije a Juan que viniera.	Eu disse ao Juan que viesse.	"Duplicação com ""le"" + subjuntivo imperfeito (viniera) depois de pedir/dizer no passado."	construção
+42	Lo vi a Pedro ayer.	Vi o Pedro ontem.	"No Paraguai é comum duplicar o objeto direto: ""lo vi a Pedro"" 🟡 coloquial. Padrão: ""vi a Pedro"". Pessoa leva ""a""."	construção
+43	Se venden casas.	Vendem-se casas.	Passiva com se: o verbo concorda com o objeto (se vende una casa / se venden casas).	construção
+44	Aquí se habla guaraní.	Aqui se fala guarani.	Impessoal com se. No Paraguai você vai ver muito isso em placas.	construção
+45	Hay mucha gente aquí.	Tem muita gente aqui.	"Ter (existir) = HABER: hay, había, hubo. Nunca ""tiene mucha gente""."	construção
+46	Hace dos años que vivo en Asunción.	Moro em Assunção há dois anos.	Há (tempo) = hace: hace dos años que…, o: vivo aquí desde hace dos años.	construção
+47	Llevo tres años estudiando español.	Estudo espanhol há três anos.	Llevar + tempo + gerúndio = estar fazendo algo há X tempo. Muito natural.	construção
+48	Tengo frío y tengo hambre.	Estou com frio e com fome.	Estar com fome/frio/sede/sono = tener hambre/frío/sed/sueño.	construção
+49	Tardé una hora en llegar.	Demorei uma hora para chegar.	"Demorar para = tardar en. (""Demorar"" existe, mas tardar en é o natural.)"	construção
+50	Te voy a extrañar.	Vou sentir sua falta.	"Sentir falta = extrañar (América). ""Echar de menos"" é da Espanha."	construção
+51	Me di cuenta de que estaba equivocado.	Percebi que estava errado.	Perceber = darse cuenta de (que). Percibir existe, mas é mais técnico.	construção
+52	¿Me sacás una foto?	Você tira uma foto minha?	Tirar foto = sacar una foto. Voseo: sacás.	construção
+53	Mañana cumplo cuarenta años.	Amanhã faço quarenta anos.	Fazer anos = cumplir años. Hacer años não existe.	construção
+54	Estoy de acuerdo con vos.	Concordo com você.	"Concordar = estar de acuerdo. ""Concordar"" existe, mas é concordância gramatical. Voseo: con vos."	construção
+55	Hay que estudiar todos los días.	Tem que estudar todo dia.	Obrigação impessoal = hay que + infinitivo. Pessoal: tengo que estudiar.	construção
