@@ -47,6 +47,7 @@ def main(audios, lentos, saida):
     BARALHOS = [
         ('espanhol-paraguaio.tsv', 'es', 2059417301, 'Paraguay::Español paraguayo — 100 frases', 'espanhol-paraguaio.apkg'),
         ('guarani-jopara.tsv', 'gn', 2059417302, 'Paraguay::Guaraní jopará — 100 frases', 'guarani-jopara.apkg'),
+        ('falsos-amigos-construcoes.tsv', 'fa', 2059417303, 'Paraguay::Falsos amigos y construcciones', 'falsos-amigos-construcoes.apkg'),
     ]
 
     for tsv, pre, deck_id, nome, arquivo in BARALHOS:
