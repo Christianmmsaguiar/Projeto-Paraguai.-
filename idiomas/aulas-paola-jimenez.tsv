@@ -1,0 +1,168 @@
+id	frase	pt	nota	tema
+1	Muy expresa intensidad. Se utiliza antes de adjetivos y adverbios.	"""Muy"" expressa intensidade. Usa-se antes de adjetivos e advérbios."	"Explicação da Paola. Em PT dizemos ""muito"" para os dois; em ES, antes de adjetivo/advérbio é sempre MUY."	Muy y mucho
+2	Mucho expresa cantidad o frecuencia. Se utiliza con sustantivos y verbos.	"""Mucho"" expressa quantidade ou frequência. Usa-se com substantivos e verbos."	Explicação da Paola. Com substantivo concorda: mucho trabajo, muchos amigos, mucha gente.	Muy y mucho
+3	Estoy muy cansada hoy.	Estou muito cansada hoje.	MUY + adjetivo (cansada).	Muy y mucho
+4	Mi profesora habla muy rápido.	Minha professora fala muito rápido.	MUY + advérbio (rápido).	Muy y mucho
+5	Esta comida está muy rica.	Esta comida está muito gostosa.	"MUY + adjetivo. ""Rica"" = gostosa (comida)."	Muy y mucho
+6	Tengo muchos amigos en Paraguay.	Tenho muitos amigos no Paraguai.	MUCHO + substantivo, concorda: muchos amigos.	Muy y mucho
+7	Me gusta mucho aprender español.	Gosto muito de aprender espanhol.	Verbo + MUCHO (frequência/intensidade da ação).	Muy y mucho
+8	Hoy tengo mucho trabajo.	Hoje tenho muito trabalho.	MUCHO + substantivo (trabajo).	Muy y mucho
+9	¡Qué purete!	Que demais! / Que massa!	🟡 Informal. Significa que algo é excelente, genial ou muito bom.	Expresiones paraguayas
+10	¡Qué purete estuvo la fiesta de ayer!	A festa de ontem foi demais!	"🟡 Exemplo da Paola com ""purete""."	Expresiones paraguayas
+11	¡Ndetavy!	Que doideira! / Tá louco!	🟡/🔴 Expressão em guarani para surpresa ou incredulidade. Segundo o tom, pode ser ofensiva (tavy = bobo, tonto).	Expresiones paraguayas
+12	¡Ndetavy! ¿En serio pasó eso?	Tá louco! Sério que isso aconteceu?	🟡 Exemplo da Paola. Cuidado com o tom.	Expresiones paraguayas
+13	¡De balde!	À toa! / Em vão!	🟢 Diz que algo foi feito inutilmente, sem o resultado esperado.	Expresiones paraguayas
+14	Vine de balde porque la tienda estaba cerrada.	Vim à toa porque a loja estava fechada.	"🟢 Exemplo da Paola com ""de balde""."	Expresiones paraguayas
+15	¡Qué argel!	Que chato! / Que antipático!	🟡 Descreve uma pessoa desagradável, antipática, ou uma situação chata.	Expresiones paraguayas
+16	¡Qué argel es levantarse tan temprano un domingo y que la profe me mande tareas de español!	Que chato é acordar tão cedo num domingo e a professora me mandar tarefa de espanhol!	"🟡 Exemplo (e piada) da Paola com ""argel""."	Expresiones paraguayas
+17	¡Un poco nomás!	Só um pouquinho!	"🟡 ""Nomás"" é coloquial; enfatiza um pedido ou comentário."	Expresiones paraguayas
+18	¡Pasá nomás!	Pode entrar! / Entra aí!	🟡 Nomás enfatiza o convite. Pasá = imperativo do voseo.	Expresiones paraguayas
+19	¡Dejá nomás!	Deixa pra lá! / Pode deixar!	🟡 Nomás enfatiza. Dejá = imperativo do voseo.	Expresiones paraguayas
+20	¡Te dije nomás!	Eu te disse!	🟡 Nomás enfatiza o comentário.	Expresiones paraguayas
+21	Vos sos.	Você é (voseo)	"🟢 Ser: en vez de ""tú eres"" → ""vos sos"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+22	Vos estás.	Você está (voseo)	"🟢 Estar: en vez de ""tú estás"" → ""vos estás"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+23	Vos tenés.	Você tem (voseo)	"🟢 Tener: en vez de ""tú tienes"" → ""vos tenés"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+24	Vos vas.	Você vai (voseo)	"🟢 Ir: en vez de ""tú vas"" → ""vos vas"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+25	Vos vivís.	Você vive (voseo)	"🟢 Vivir: en vez de ""tú vives"" → ""vos vivís"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+26	Vos venís.	Você vem (voseo)	"🟢 Venir: en vez de ""tú vienes"" → ""vos venís"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+27	Vos comés.	Você come (voseo)	"🟢 Comer: en vez de ""tú comes"" → ""vos comés"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+28	A vos te gusta.	Você gosta (voseo)	"🟢 Gustar: en vez de ""a ti te gusta"" → ""a vos te gusta"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+29	Vos decís.	Você diz (voseo)	"🟢 Decir: en vez de ""tú dices"" → ""vos decís"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+30	Vos hacés.	Você faz (voseo)	"🟢 Hacer: en vez de ""tú haces"" → ""vos hacés"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+31	Vos llegás.	Você chega (voseo)	"🟢 Llegar: en vez de ""tú llegas"" → ""vos llegás"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+32	Vos pedís.	Você pede (voseo)	"🟢 Pedir: en vez de ""tú pides"" → ""vos pedís"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+33	Vos agarrás.	Você pega (voseo)	"🟢 Agarrar: en vez de ""tú agarras"" → ""vos agarrás"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+34	Vos bebés.	Você bebe (voseo)	"🟢 Beber: en vez de ""tú bebes"" → ""vos bebés"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+35	Vos soñás.	Você sonha (voseo)	"🟢 Soñar: en vez de ""tú sueñas"" → ""vos soñás"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+36	Vos sentís.	Você sente (voseo)	"🟢 Sentir: en vez de ""tú sientes"" → ""vos sentís"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+37	Vos podés.	Você pode (voseo)	"🟢 Poder: en vez de ""tú puedes"" → ""vos podés"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+38	Vos llamás.	Você chama / liga (voseo)	"🟢 Llamar: en vez de ""tú llamas"" → ""vos llamás"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+39	Vos extrañás.	Você sente saudade (voseo)	"🟢 Extrañar: en vez de ""tú extrañas"" → ""vos extrañás"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+40	Vos querés.	Você quer (voseo)	"🟢 Querer: en vez de ""tú quieres"" → ""vos querés"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+41	Vos ponés.	Você põe (voseo)	"🟢 Poner: en vez de ""tú pones"" → ""vos ponés"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+42	Vos ves.	Você vê (voseo)	"🟢 Ver: en vez de ""tú ves"" → ""vos ves"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+43	Vos dejás.	Você deixa (voseo)	"🟢 Dejar: en vez de ""tú dejas"" → ""vos dejás"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+44	Vos olvidás.	Você esquece (voseo)	"🟢 Olvidar: en vez de ""tú olvidas"" → ""vos olvidás"". No Paraguai se usa vos; acento na última sílaba e sem ditongo (tenés, podés, querés)."	Voseo
+45	En los tiempos compuestos se conjuga el verbo auxiliar haber y se utiliza el participio del verbo principal.	Nos tempos compostos conjuga-se o verbo auxiliar haber e usa-se o particípio do verbo principal.	"Regra da Paola. Ex.: he tenido, había hecho, habré dicho, habría olvidado. Em PT usamos ""ter"" (tenho feito); em ES é sempre HABER."	Conjugaciones
+46	Tener: tengo, tuve, tenía, tendré, tendría.	ter (eu): presente, pretérito perfeito, imperfeito, futuro, condicional	Ordem da tabela da Paola: presente, pretérito perfecto simple, pretérito imperfecto, futuro simple, condicional (yo).	Conjugaciones
+47	Tener, subjuntivo: que yo tenga; si yo tuviera.	ter, subjuntivo: que eu ... ; se eu ...	Presente de subjuntivo e pretérito imperfecto de subjuntivo (yo).	Conjugaciones
+48	Tener: he tenido, había tenido, habré tenido, habría tenido.	ter: tenho ..., tinha ..., terei ..., teria ...	Tempos compostos (yo): perfecto compuesto, pluscuamperfecto, futuro perfecto, condicional perfecto. Subjuntivo: haya / hubiera + participio.	Conjugaciones
+49	Tener: teniendo, tenido; ten, no tengas.	ter: gerúndio, particípio; imperativo afirmativo e negativo (tú)	Gerundio, participio, imperativo afirmativo y negativo (tú). Em voseo o imperativo muda: tené, hacé, decí, olvidá.	Conjugaciones
+50	Hacer: hago, hice, hacía, haré, haría.	fazer (eu): presente, pretérito perfeito, imperfeito, futuro, condicional	Ordem da tabela da Paola: presente, pretérito perfecto simple, pretérito imperfecto, futuro simple, condicional (yo).	Conjugaciones
+51	Hacer, subjuntivo: que yo haga; si yo hiciera.	fazer, subjuntivo: que eu ... ; se eu ...	Presente de subjuntivo e pretérito imperfecto de subjuntivo (yo).	Conjugaciones
+52	Hacer: he hecho, había hecho, habré hecho, habría hecho.	fazer: tenho ..., tinha ..., terei ..., teria ...	Tempos compostos (yo): perfecto compuesto, pluscuamperfecto, futuro perfecto, condicional perfecto. Subjuntivo: haya / hubiera + participio.	Conjugaciones
+53	Hacer: haciendo, hecho; haz, no hagas.	fazer: gerúndio, particípio; imperativo afirmativo e negativo (tú)	Gerundio, participio, imperativo afirmativo y negativo (tú). Em voseo o imperativo muda: tené, hacé, decí, olvidá.	Conjugaciones
+54	Decir: digo, dije, decía, diré, diría.	dizer (eu): presente, pretérito perfeito, imperfeito, futuro, condicional	Ordem da tabela da Paola: presente, pretérito perfecto simple, pretérito imperfecto, futuro simple, condicional (yo).	Conjugaciones
+55	Decir, subjuntivo: que yo diga; si yo dijera.	dizer, subjuntivo: que eu ... ; se eu ...	Presente de subjuntivo e pretérito imperfecto de subjuntivo (yo).	Conjugaciones
+56	Decir: he dicho, había dicho, habré dicho, habría dicho.	dizer: tenho ..., tinha ..., terei ..., teria ...	Tempos compostos (yo): perfecto compuesto, pluscuamperfecto, futuro perfecto, condicional perfecto. Subjuntivo: haya / hubiera + participio.	Conjugaciones
+57	Decir: diciendo, dicho; di, no digas.	dizer: gerúndio, particípio; imperativo afirmativo e negativo (tú)	Gerundio, participio, imperativo afirmativo y negativo (tú). Em voseo o imperativo muda: tené, hacé, decí, olvidá.	Conjugaciones
+58	Olvidar: olvido, olvidé, olvidaba, olvidaré, olvidaría.	esquecer (eu): presente, pretérito perfeito, imperfeito, futuro, condicional	Ordem da tabela da Paola: presente, pretérito perfecto simple, pretérito imperfecto, futuro simple, condicional (yo).	Conjugaciones
+59	Olvidar, subjuntivo: que yo olvide; si yo olvidara.	esquecer, subjuntivo: que eu ... ; se eu ...	Presente de subjuntivo e pretérito imperfecto de subjuntivo (yo).	Conjugaciones
+60	Olvidar: he olvidado, había olvidado, habré olvidado, habría olvidado.	esquecer: tenho ..., tinha ..., terei ..., teria ...	Tempos compostos (yo): perfecto compuesto, pluscuamperfecto, futuro perfecto, condicional perfecto. Subjuntivo: haya / hubiera + participio.	Conjugaciones
+61	Olvidar: olvidando, olvidado; olvida, no olvides.	esquecer: gerúndio, particípio; imperativo afirmativo e negativo (tú)	Gerundio, participio, imperativo afirmativo y negativo (tú). Em voseo o imperativo muda: tené, hacé, decí, olvidá.	Conjugaciones
+62	El viernes pasado fue uno de los días más complicados que recuerdo.	A sexta passada foi um dos dias mais complicados de que me lembro.		Historia de Nicolás
+63	Nicolás, ¿ya hiciste tu tarea de matemáticas?	Nicolás, você já fez sua tarefa de matemática?	Pretérito perfecto simple de hacer: hiciste.	Historia de Nicolás
+64	Mamá, te dije ayer que la iba a terminar por la mañana.	Mãe, eu te disse ontem que ia terminar de manhã.	Dije = pretérito de decir.	Historia de Nicolás
+65	Eso mismo me dijiste la semana pasada y después olvidaste entregar el trabajo.	Foi exatamente isso que você me disse semana passada, e depois esqueceu de entregar o trabalho.	"Olvidar + infinitivo, sem ""de""."	Historia de Nicolás
+66	Últimamente tengo demasiadas cosas en la cabeza y constantemente olvido mis responsabilidades.	Ultimamente tenho coisas demais na cabeça e vivo esquecendo minhas responsabilidades.		Historia de Nicolás
+67	¡Mamá! ¿Vos tenés idea de dónde está mi camiseta?	Mãe! Você tem ideia de onde está minha camiseta?	Voseo: vos tenés.	Historia de Nicolás
+68	Ayer la dejaste sobre la silla. Te dije que la guardaras, pero no me escuchaste.	Ontem você deixou em cima da cadeira. Eu te disse para guardar, mas você não me ouviu.	Decir que + imperfecto de subjuntivo: te dije que la guardaras.	Historia de Nicolás
+69	El problema era que todavía no había hecho mi parte del trabajo.	O problema era que eu ainda não tinha feito a minha parte do trabalho.	"No texto da Paola aparece ""no hice"" para você corrigir: o certo é o pluscuamperfecto ""no había hecho""."	Historia de Nicolás
+70	Si no terminaba el proyecto, mis compañeros seguramente me dirían que era un irresponsable.	Se eu não terminasse o projeto, meus colegas com certeza me diriam que eu era um irresponsável.	Dirían = condicional de decir.	Historia de Nicolás
+71	Y, para ser sincero, no tendría argumentos para defenderme.	E, para ser sincero, eu não teria argumentos para me defender.	Tendría = condicional de tener.	Historia de Nicolás
+72	¡Nicolás! ¿Qué hacías ayer? Te mandamos mensajes toda la noche.	Nicolás! O que você estava fazendo ontem? A gente te mandou mensagem a noite toda.	Hacías = imperfecto (ação em andamento).	Historia de Nicolás
+73	Perdón, muchachos. Tenía algunos problemas en casa y después me quedé dormido.	Desculpa, pessoal. Eu estava com uns problemas em casa e depois peguei no sono.	Quedarse dormido = adormecer / perder a hora.	Historia de Nicolás
+74	No me digas que otra vez te olvidaste del proyecto.	Não me diga que você esqueceu do projeto de novo.	"Olvidarse DE algo (pronominal pede ""de""); olvidar algo (sem ""de"")."	Historia de Nicolás
+75	Está bien, lo admito. Me olvidé completamente de terminar mi parte.	Tá bom, admito. Esqueci completamente de terminar a minha parte.		Historia de Nicolás
+76	Si nos decías ayer que no habías terminado, te habríamos ayudado.	Se você tivesse nos dito ontem que não tinha terminado, a gente teria te ajudado.	"Coloquial: ""si nos decías"" no lugar de ""si nos hubieras dicho""."	Historia de Nicolás
+77	Si hubiera tenido más tiempo, lo habría terminado.	Se eu tivesse tido mais tempo, teria terminado.	Si + pluscuamperfecto de subjuntivo, condicional perfecto.	Historia de Nicolás
+78	Mirá, yo hice algunas anotaciones adicionales.	Olha, eu fiz algumas anotações a mais.	Mirá = imperativo do voseo.	Historia de Nicolás
+79	¡Gracias! No sé qué haría sin ustedes.	Obrigado! Não sei o que eu faria sem vocês.	Haría = condicional de hacer.	Historia de Nicolás
+80	Buenos días. Espero que todos tengan sus proyectos preparados.	Bom dia. Espero que todos estejam com seus projetos prontos.	Esperar que + presente de subjuntivo: tengan.	Historia de Nicolás
+81	Profesor, ¿podemos presentar después del recreo?	Professor, podemos apresentar depois do recreio?		Historia de Nicolás
+82	¿Por qué? ¿No hicieron el trabajo?	Por quê? Vocês não fizeram o trabalho?		Historia de Nicolás
+83	Está bien, pero espero que no olviden ninguna parte importante.	Tudo bem, mas espero que não esqueçam nenhuma parte importante.	Subjuntivo: olviden.	Historia de Nicolás
+84	Buenas tardes. ¿Qué necesitás?	Boa tarde. Do que você precisa?	Voseo: necesitás.	Historia de Nicolás
+85	Quisiera comprar un regalo para mi hermana, pero no tengo mucha idea de qué elegir.	Queria comprar um presente para minha irmã, mas não tenho muita ideia do que escolher.	Quisiera = forma educada.	Historia de Nicolás
+86	¡Uf! No tengo tanto dinero. ¿Tiene algo más económico?	Ufa! Não tenho tanto dinheiro. Tem algo mais em conta?	Económico = barato.	Historia de Nicolás
+87	Había olvidado mi billetera en casa.	Eu tinha esquecido a carteira em casa.	Pluscuamperfecto: había olvidado.	Historia de Nicolás
+88	Disculpe, creo que hice algo muy tonto.	Desculpe, acho que fiz uma coisa muito boba.	"Creo que + indicativo (sem ""que puede""!)."	Historia de Nicolás
+89	No te preocupes. ¿Tenés alguna aplicación para pagar con el celular?	Não se preocupe. Você tem algum aplicativo para pagar com o celular?	Voseo: tenés.	Historia de Nicolás
+90	¡No te olvides de llevar el regalo!	Não esqueça de levar o presente!	Imperativo negativo: no te olvides.	Historia de Nicolás
+91	¿Cómo te fue hoy?	Como foi o seu dia?	Expressão fixa: ¿cómo te fue?	Historia de Nicolás
+92	No tuve precisamente el mejor día de mi vida.	Não tive exatamente o melhor dia da minha vida.		Historia de Nicolás
+93	Todos cometemos errores, pero es importante que hagas un esfuerzo para organizarte mejor.	Todos cometemos erros, mas é importante que você se esforce para se organizar melhor.	Es importante que + subjuntivo: hagas.	Historia de Nicolás
+94	Prometo que mañana haré una lista de mis responsabilidades.	Prometo que amanhã vou fazer uma lista das minhas responsabilidades.	Haré = futuro de hacer.	Historia de Nicolás
+95	También sería conveniente que tengas una agenda para anotar tus tareas.	Também seria bom você ter uma agenda para anotar suas tarefas.		Historia de Nicolás
+96	Tenés razón. Si hubiera sido más organizado, no habría olvidado tantas cosas.	Você tem razão. Se eu tivesse sido mais organizado, não teria esquecido tantas coisas.	"No texto da Paola aparece ""no había olvidado"" para corrigir: o certo é ""no habría olvidado""."	Historia de Nicolás
+97	Lo importante es que aprendiste algo.	O importante é que você aprendeu algo.		Historia de Nicolás
+98	Si mis amigos no me hubieran ayudado, probablemente no tendría una buena calificación.	Se meus amigos não tivessem me ajudado, provavelmente eu não teria uma boa nota.		Historia de Nicolás
+99	Si mi madre no me hubiera dado aquel consejo, quizás nunca me daría cuenta de la importancia de organizarme.	Se minha mãe não tivesse me dado aquele conselho, talvez eu nunca percebesse a importância de me organizar.	Darse cuenta = perceber.	Historia de Nicolás
+100	Mañana tendré un día diferente. Haré mis tareas a tiempo y no olvidaré mis compromisos.	Amanhã vou ter um dia diferente. Vou fazer minhas tarefas a tempo e não vou esquecer meus compromissos.	Futuro simple: tendré, haré, olvidaré.	Historia de Nicolás
+101	¡Definitivamente todavía tengo mucho que aprender!	Definitivamente ainda tenho muito que aprender!		Historia de Nicolás
+102	Yo tuve muchos compromisos.	Eu tive muitos compromissos.	"Exercício da Paola: ""Yo tengo muchos compromisos."" (Presente → pretérito perfecto simple)."	Cambia el tiempo verbal
+103	Nosotros haremos las tareas por la tarde.	Nós faremos as tarefas à tarde.	"Exercício da Paola: ""Nosotros hacemos las tareas por la tarde."" (Presente → futuro simple)."	Cambia el tiempo verbal
+104	Mi madre me decía que debía estudiar.	Minha mãe me dizia que eu devia estudar.	"Exercício da Paola: ""Mi madre me dice que debo estudiar."" (Presente → pretérito imperfecto)."	Cambia el tiempo verbal
+105	Olvidaría mi billetera.	Eu esqueceria minha carteira.	"Exercício da Paola: ""Ayer olvidé mi billetera."" (Pretérito perfecto simple → condicional)."	Cambia el tiempo verbal
+106	Ellos han hecho un trabajo muy importante.	Eles fizeram um trabalho muito importante.	"Exercício da Paola: ""Ellos hacen un trabajo muy importante."" (Presente → pretérito perfecto compuesto)."	Cambia el tiempo verbal
+107	Mañana tendría más tiempo.	Amanhã eu teria mais tempo.	"Exercício da Paola: ""Mañana tendré más tiempo."" (Futuro simple → condicional)."	Cambia el tiempo verbal
+108	Mi amigo dijo la verdad.	Meu amigo disse a verdade.	"Exercício da Paola: ""Mi amigo dice la verdad."" (Presente → pretérito perfecto simple)."	Cambia el tiempo verbal
+109	Cuando sea mayor, olvidaré muchas cosas.	Quando eu for mais velho, vou esquecer muitas coisas.	"Exercício da Paola: ""Cuando era pequeño, olvidaba muchas cosas."" (Pretérito imperfecto → futuro simple)."	Cambia el tiempo verbal
+110	Mi madre quiere que yo haga mis tareas.	Minha mãe quer que eu faça minhas tarefas.	"Exercício da Paola: ""Yo hago mis tareas."" (Presente → presente de subjuntivo)."	Cambia el tiempo verbal
+111	Nosotros habíamos tenido una oportunidad.	Nós tínhamos tido uma oportunidade.	"Exercício da Paola: ""Nosotros tenemos una oportunidad."" (Presente → pretérito pluscuamperfecto)."	Cambia el tiempo verbal
+112	¿Qué hacés normalmente después de la escuela?	O que você costuma fazer depois da escola?	Pergunta da Paola para conversar. Responda em voz alta.	Preguntas para conversar
+113	¿Qué hiciste el último fin de semana?	O que você fez no último fim de semana?	Pergunta da Paola para conversar. Responda em voz alta.	Preguntas para conversar
+114	¿Alguna vez olvidaste algo importante? ¿Qué sucedió?	Você já esqueceu algo importante? O que aconteceu?	Pergunta da Paola para conversar. Responda em voz alta.	Preguntas para conversar
+115	¿Qué le decís a tu mamá cuando necesitás ayuda?	O que você diz para sua mãe quando precisa de ajuda?	Pergunta da Paola para conversar. Responda em voz alta.	Preguntas para conversar
+116	¿Qué harías si encontraras una billetera en la calle?	O que você faria se encontrasse uma carteira na rua?	Pergunta da Paola para conversar. Responda em voz alta.	Preguntas para conversar
+117	¿Qué cosas tenías cuando eras pequeño que ya no tenés?	Que coisas você tinha quando era pequeno que já não tem?	Pergunta da Paola para conversar. Responda em voz alta.	Preguntas para conversar
+118	¿Qué harás mañana después de terminar tus responsabilidades?	O que você vai fazer amanhã depois de terminar suas obrigações?	Pergunta da Paola para conversar. Responda em voz alta.	Preguntas para conversar
+119	¿Qué te gustaría que hicieran tus amigos en tu próximo cumpleaños?	O que você gostaria que seus amigos fizessem no seu próximo aniversário?	Pergunta da Paola para conversar. Responda em voz alta.	Preguntas para conversar
+120	¿Qué le dirías a una persona que perdió su celular?	O que você diria para uma pessoa que perdeu o celular?	Pergunta da Paola para conversar. Responda em voz alta.	Preguntas para conversar
+121	¿Qué habrías hecho si estuvieras en la situación de Nicolás?	O que você teria feito se estivesse na situação do Nicolás?	Pergunta da Paola para conversar. Responda em voz alta.	Preguntas para conversar
+122	Durante la semana, mi rutina es bastante ocupada.	Durante a semana, minha rotina é bem corrida.	Banco de palavras da Paola: ocupada	Vocabulario del día a día
+123	Todos los días me despierto a las seis de la mañana.	Todos os dias acordo às seis da manhã.	Banco de palavras da Paola: despertarse: me despierto	Vocabulario del día a día
+124	Lo primero que hago es ir al baño para lavarme la cara y cepillarme los dientes.	A primeira coisa que faço é ir ao banheiro lavar o rosto e escovar os dentes.	Banco de palavras da Paola: baño = banheiro	Vocabulario del día a día
+125	Después, voy a la cocina para preparar el desayuno de toda la familia.	Depois, vou para a cozinha preparar o café da manhã de toda a família.	Banco de palavras da Paola: cocina, desayuno	Vocabulario del día a día
+126	Preparo café con leche, pan tostado y algunas frutas.	Preparo café com leite, pão torrado e algumas frutas.	Banco de palavras da Paola: frutas	Vocabulario del día a día
+127	Aprovecho para organizar sus mochilas.	Aproveito para organizar as mochilas deles.	Banco de palavras da Paola: mochilas	Vocabulario del día a día
+128	Siempre reviso si las puertas están cerradas y si apagué todas las luces.	Sempre confiro se as portas estão fechadas e se apaguei todas as luzes.	Banco de palavras da Paola: puertas, luces; revisar = conferir	Vocabulario del día a día
+129	Como mi oficina queda bastante lejos, necesito tomar el autobús.	Como meu escritório fica bem longe, preciso pegar o ônibus.	Banco de palavras da Paola: autobús; quedar = ficar (localização)	Vocabulario del día a día
+130	Cuando hay mucho tráfico, puedo tardar casi una hora.	Quando tem muito trânsito, posso levar quase uma hora.	Banco de palavras da Paola: tráfico = trânsito; tardar = demorar	Vocabulario del día a día
+131	Saludo a mis compañeros, enciendo la computadora y reviso los correos pendientes.	Cumprimento meus colegas, ligo o computador e vejo os e-mails pendentes.	Banco de palavras da Paola: compañeros, correos; encender = ligar	Vocabulario del día a día
+132	Al mediodía, tengo una hora para almorzar.	Ao meio-dia, tenho uma hora para almoçar.	Banco de palavras da Paola: almorzar	Vocabulario del día a día
+133	Voy a un restaurante que queda cerca de la oficina.	Vou a um restaurante que fica perto do escritório.	Banco de palavras da Paola: restaurante	Vocabulario del día a día
+134	Paso por el supermercado para comprar leche, arroz, verduras y productos de limpieza.	Passo no supermercado para comprar leite, arroz, verduras e produtos de limpeza.	Banco de palavras da Paola: supermercado	Vocabulario del día a día
+135	Cuando llego a casa, mis hijos están haciendo sus tareas.	Quando chego em casa, meus filhos estão fazendo a lição de casa.	Banco de palavras da Paola: tareas = deveres de casa	Vocabulario del día a día
+136	Después comenzamos a preparar la cena.	Depois começamos a preparar o jantar.	Banco de palavras da Paola: cena = jantar	Vocabulario del día a día
+137	Mi esposo se encarga de lavar los platos.	Meu marido fica encarregado de lavar a louça.	Banco de palavras da Paola: platos; encargarse de	Vocabulario del día a día
+138	Guardo la comida que sobró en el refrigerador.	Guardo a comida que sobrou na geladeira.	Banco de palavras da Paola: refrigerador = geladeira	Vocabulario del día a día
+139	Después de cenar, nos sentamos en la sala para conversar.	Depois do jantar, sentamos na sala para conversar.	Banco de palavras da Paola: sala	Vocabulario del día a día
+140	Antes de acostarme, preparo la ropa que voy a usar al día siguiente.	Antes de deitar, separo a roupa que vou usar no dia seguinte.	Banco de palavras da Paola: ropa; acostarse = deitar	Vocabulario del día a día
+141	Reviso mi agenda y pongo el despertador.	Olho minha agenda e coloco o despertador.	Banco de palavras da Paola: agenda, despertador	Vocabulario del día a día
+142	Aunque termino el día bastante cansada, me siento feliz.	Embora termine o dia bem cansada, me sinto feliz.	Banco de palavras da Paola: cansada	Vocabulario del día a día
+143	Nos gusta salir a caminar por el parque.	Gostamos de sair para caminhar no parque.	Banco de palavras da Paola: caminar	Vocabulario del día a día
+144	Aprovechamos para limpiar la casa y lavar la ropa.	Aproveitamos para limpar a casa e lavar a roupa.	Banco de palavras da Paola: limpiar	Vocabulario del día a día
+145	Lo más importante es encontrar un equilibrio entre las responsabilidades y el descanso.	O mais importante é encontrar um equilíbrio entre as responsabilidades e o descanso.	Banco de palavras da Paola: equilibrio	Vocabulario del día a día
+146	¿A qué hora se despierta Carolina?	A que horas a Carolina acorda?	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
+147	¿Qué prepara normalmente para el desayuno?	O que ela costuma preparar no café da manhã?	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
+148	¿Quién lleva a los niños a la escuela?	Quem leva as crianças para a escola?	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
+149	¿Cómo se transporta Carolina al trabajo?	Como a Carolina vai para o trabalho?	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
+150	¿Qué hace durante la mañana en la oficina?	O que ela faz de manhã no escritório?	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
+151	¿Dónde almuerza cuando no lleva comida?	Onde ela almoça quando não leva comida?	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
+152	¿Qué compra normalmente en el supermercado?	O que ela costuma comprar no supermercado?	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
+153	¿Qué hacen sus hijos cuando ella llega a casa?	O que os filhos estão fazendo quando ela chega em casa?	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
+154	¿Cómo se organizan Carolina y su esposo después de cenar?	Como a Carolina e o marido se organizam depois do jantar?	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
+155	¿Qué actividades realiza antes de acostarse?	Que atividades ela faz antes de deitar?	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
+156	¿Qué hace la familia durante los fines de semana?	O que a família faz nos fins de semana?	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
+157	¿Crees que Carolina tiene una rutina tranquila o agitada? ¿Por qué?	Você acha que a Carolina tem uma rotina tranquila ou agitada? Por quê?	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
+158	Normalmente me despierto a las...	Normalmente eu acordo às...	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
+159	Lo primero que hago por la mañana es...	A primeira coisa que eu faço de manhã é...	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
+160	Para desayunar, generalmente como...	No café da manhã, geralmente como...	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
+161	Durante la mañana suelo...	De manhã eu costumo...	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
+162	A la hora del almuerzo...	Na hora do almoço...	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
+163	Por la tarde acostumbro...	À tarde eu costumo...	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
+164	Cuando regreso a casa...	Quando volto para casa...	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
+165	Antes de acostarme siempre...	Antes de deitar, sempre...	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
+166	Los fines de semana prefiero...	Nos fins de semana prefiro...	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
+167	Me gustaría cambiar algo de mi rutina porque...	Eu gostaria de mudar algo na minha rotina porque...	Pergunta/frase da Paola. Complete em voz alta com a sua rotina.	Rutina: preguntas
